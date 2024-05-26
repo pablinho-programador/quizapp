@@ -151,6 +151,15 @@ main {
     color: var(--primary-text-color);
 }
 
+.alternativas label:has(input:checked) {
+    outline: 3px solid var(--purple);
+
+    & span {
+        background: var(--purple);
+        color: var(--white);
+    }
+}
+
 .alternativas input {
     display: none;
 }
