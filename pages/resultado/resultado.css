@@ -117,8 +117,6 @@ main h2 strong {
     font-weight: 500;
 }
 
-
-
 .pontuacao {
     background: var(--pontuacao-bg);
     padding: 32px;
@@ -198,5 +196,21 @@ main button:hover {
     .tema button div {
         width: 20px;
         height: 20px;
+    }
+
+    main {
+        display: flex;
+        gap: 14px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2 {
+        font-size: 64px;
     }
 }
